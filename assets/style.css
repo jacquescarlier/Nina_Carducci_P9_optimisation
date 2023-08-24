@@ -39,6 +39,7 @@ body {
 }
 
 .social-link img {
+	height: auto;
 	width: 20px;
 }
 
@@ -68,6 +69,7 @@ body {
 }
 
 .picture img {
+	height: 100%;
 	width: 100%;
 
 }
@@ -90,10 +92,6 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-/*
-#gallery {
-		min-height: 100vh; 
-}*/
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -118,7 +116,6 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 .gallery-item {
 	position: absolute;
@@ -263,6 +260,7 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1000px) {
+
 	#about{
 		flex-direction: column;
 
@@ -337,6 +335,7 @@ input[type="submit"] {
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
+		width: auto;
 	}
 	#services .container {
 		align-items: center;
